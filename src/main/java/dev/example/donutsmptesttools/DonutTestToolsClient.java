@@ -58,7 +58,7 @@ public final class DonutTestToolsClient implements ClientModInitializer {
         }
 
         long now = System.currentTimeMillis();
-        long window = client.getWindow().getWindow();
+        long window = client.getWindow().handle();
         boolean leftDown = GLFW.glfwGetMouseButton(window, GLFW.GLFW_MOUSE_BUTTON_LEFT) == GLFW.GLFW_PRESS;
         boolean rightDown = GLFW.glfwGetMouseButton(window, GLFW.GLFW_MOUSE_BUTTON_RIGHT) == GLFW.GLFW_PRESS;
 
