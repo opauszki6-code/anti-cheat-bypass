@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "donutsmp_testtools",
+  "version": "${version}",
+  "name": "DonutSMP TestTools",
+  "description": "Client-side diagnostics for your own Minecraft test environment.",
+  "authors": ["Project contributors"],
+  "contact": {
+    "sources": "https://github.com/yourname/DonutSMP-TestTools"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.example.donutsmptesttools.DonutTestToolsClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
